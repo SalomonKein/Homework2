@@ -62,10 +62,9 @@ section {
     padding: 35px;
     font-size: 14pt;
 }
-footer {
+.footer {
     border: 1px solid black;*/
     display: inline-block;
-    width: 800px;
     height: 55px;
     background: #b4b7ba;
     font-size: 25px;
@@ -82,48 +81,25 @@ footer {
     text-decoration: underline;
     color: #3181a6; 
    }
+.linebar {
+    background: #35444f;
+    text-align: center;  
+    
+}
 button {
     font-size: 20px;
     color: #FFFFFF;
-    padding-left: 87px;
-    padding-right: 87px;
+    padding-left: 30px;
+    padding-right: 30px;
     background: #35444f;
     border: none; 
     height: 70px;
-    text-align: center;   
+    text-align: center; 
+    margin-left: -4px;  
 }
 button:hover {
     background: #222f3a; 
 }
-/*.button1 {
-    background: #35444f;
-    width: 490px;
-    height: 70px;
-    border: none;
-    }
-.button2 {
-    background: #35444f;
-    width: 150px;
-    height: 70px;
-    border: none;
-  }
-.button3 {
-    background: #35444f;
-    width: 250px;
-    height: 70px;
-    border: none;
- }
-.button4 {
-    background: #35444f;
-    width: 390px;
-    height: 70px;
-    border: none;
-}
-.centred {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}*/
 .picture {
     display: inline-block;
   vertical-align: middle;
@@ -150,13 +126,6 @@ button:hover {
     transform: scale(1.2);
 }
 .copy {
-    display: inline-block;
-    width: 200px;
-    height: 55px;
-    background: #b4b7ba;
-    font-size: 25px;
-    padding-top: 25px;
     padding-right: 35px;
-    text-align: right;
-    margin-right: 0px;
+    float: right;
 }
